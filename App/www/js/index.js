@@ -7,7 +7,7 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
 
-    var APIKEY_CP = "9ed284617343af884ee6eaacd72866f4";
+    //var APIKEY_CP = "9ed284617343af884ee6eaacd72866f4";
 
     var onSuccess = function(position) {
         alert('Latitude: '          + position.coords.latitude          + '\n' +
